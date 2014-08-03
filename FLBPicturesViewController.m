@@ -65,7 +65,8 @@
     FLBCollectionViewCell *cell = [self.collectionView dequeueReusableCellWithReuseIdentifier:@"FLBCollectionViewCell" forIndexPath:indexPath];
     cell.imageView.image = nil;
     NSURL *url = self.picturesURL[indexPath.row];
-    
+    [self.activityIndicator startAnimating];
+
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [NSURLConnection sendAsynchronousRequest:request
                                        queue:self.pictureLoaderQueue //[NSOperationQueue mainQueue]
@@ -74,6 +75,7 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             UIImage *image = [[UIImage alloc] initWithData:data];
             cell.imageView.image = image;
+            [self.activityIndicator stopAnimating];
         });
     }];
 

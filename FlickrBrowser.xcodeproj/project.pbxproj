@@ -461,7 +461,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"/Users/zeev_vax/Documents/DevLibraries/FlickrBrowser/FlickrKit-master/Classes/**",
+					"FlickrKit-master/Classes/**",
 				);
 				INFOPLIST_FILE = "FlickrBrowser/FlickrBrowser-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,7 +479,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"/Users/zeev_vax/Documents/DevLibraries/FlickrBrowser/FlickrKit-master/Classes/**",
+					"FlickrKit-master/Classes/**",
 				);
 				INFOPLIST_FILE = "FlickrBrowser/FlickrBrowser-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -546,6 +546,7 @@
 				6053A71F198D765E009077A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6053A720198D765E009077A0 /* Build configuration list for PBXNativeTarget "FlickrBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +555,7 @@
 				6053A722198D765E009077A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

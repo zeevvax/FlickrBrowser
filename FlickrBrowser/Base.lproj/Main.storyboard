@@ -51,10 +51,12 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7wd-EX-fgm">
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="7wd-EX-fgm" firstAttribute="leading" secondItem="iRp-1t-iVZ" secondAttribute="leading" id="JuS-p8-0Ou"/>
                                             <constraint firstAttribute="trailing" secondItem="7wd-EX-fgm" secondAttribute="trailing" id="Wtb-CY-ArT"/>
@@ -76,7 +78,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="gxx-lg-S0Y" secondAttribute="centerX" id="6Nq-2A-RaE"/>
                             <constraint firstAttribute="trailing" secondItem="7ts-yt-8Y5" secondAttribute="trailing" id="CG8-xe-Qew"/>
